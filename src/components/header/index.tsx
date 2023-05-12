@@ -1,8 +1,9 @@
-import React from 'react'
+import {FC} from 'react'
+import { HeaderDiv } from './styles'
 
-const HeaderContainer = () => {
+const HeaderContainer:FC = () => {
   return (
-    <div>HeaderContainer</div>
+    <HeaderDiv>HeaderContainer</HeaderDiv>
   )
 }
 

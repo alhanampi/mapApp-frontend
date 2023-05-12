@@ -1,3 +1,5 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const LayoutDiv = styled.div``
+export const LayoutDiv = styled.div`
+  height: 100vh;
+`;
