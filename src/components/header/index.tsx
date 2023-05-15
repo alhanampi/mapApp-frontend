@@ -1,10 +1,17 @@
-import {FC} from 'react'
-import { HeaderDiv } from './styles'
+import { FC } from "react";
+import { HeaderDiv, Right, Left } from "./styles";
+import { FiMapPin } from "react-icons/fi";
 
-const HeaderContainer:FC = () => {
+const HeaderContainer: FC = () => {
   return (
-    <HeaderDiv>HeaderContainer</HeaderDiv>
-  )
-}
+    <HeaderDiv>
+      <Left>
+        <FiMapPin />
+        <h1>Where the pin?</h1>
+      </Left>
+      <Right>some user data here</Right>
+    </HeaderDiv>
+  );
+};
 
-export default HeaderContainer
+export default HeaderContainer;

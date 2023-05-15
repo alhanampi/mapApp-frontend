@@ -8,3 +8,4 @@ export const mapStyles = {
   navigationDay: "mapbox://styles/mapbox/navigation-day-v1",
   navigationNight: "mapbox://styles/mapbox/navigation-night-v1",
 };
+// add more from here: https://www.mapbox.com/gallery
